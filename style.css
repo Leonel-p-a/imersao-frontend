@@ -2,10 +2,6 @@ body {
     background-color: rgb(12, 12, 12);
 }
 
-h1 {
-    color: rgb(255, 255, 255);
-}
-
 .sidebar {
     position: fixed;
     top: 0;
@@ -42,9 +38,54 @@ h1 {
 }
 
 .sidebar nav ul li a {
-    color: rgb(255, 255, 255);
+    color: rgb(145, 145, 145);
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
     font-family: "DM Sans", sans-serif;
+}
+
+.library {
+    background-color: rgb(27, 27, 27);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 4px 8px;
+    color: rgb(145, 145, 145);
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.library .library_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.library .library_button {
+    display: flex;
+    margin-right: 10px;
+    color: rgb(145, 145, 145);
+    background-color: transparent;
+    border: 0px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Dm Sans", sans-serif;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    padding: 20px 10px;
+}
+
+.library .library_button .fa {
+    font-size: 20px;
+    font-weight: 300;
+    color: rgb(145, 145, 145);
+    margin-right: 10px;
+    padding-right: 8px;
+}
+
+.library .library_content .fa-plus {
+    margin: 24px 10px;
 }
