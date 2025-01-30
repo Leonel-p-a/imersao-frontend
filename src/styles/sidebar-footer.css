@@ -1,5 +1,6 @@
 body {
     background-color: rgb(12, 12, 12);
+    font-family: var(--font-dm-sans);
 }
 
 .sidebar {
@@ -42,7 +43,6 @@ body {
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
-    font-family: "DM Sans", sans-serif;
 }
 
 .library {
@@ -71,11 +71,15 @@ body {
     border: 0px;
     font-size: 14px;
     font-weight: 700;
-    font-family: "Dm Sans", sans-serif;
     text-align: center;
     text-decoration: none;
     text-transform: none;
     padding: 20px 10px;
+    transition-duration: 0.5s;
+}
+
+.library .library_button:hover {
+    color: rgb(255, 255, 255);
 }
 
 .library .library_button .fa {
@@ -111,7 +115,6 @@ body {
 .section-playlist_content .text {
     padding-bottom: 14px;
     color: rgb(255, 255, 255);
-    font-family: "DM Sans", sans-serif;
 }
 
 .section-playlist_content .title {
@@ -131,13 +134,18 @@ body {
     border-radius: 20px;
     font-size: 12px;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
     text-decoration: none;
     text-transform: none;
     padding: 10px;
     margin-top: 12px;
     border: 0px;
     width: 113px;
+    cursor: pointer;
+}
+
+.section-playlist_content .section-playlist_button:hover {
+    background-color: rgb(227, 227, 227);
+    transform: scale(1.05);
 }
 
 .sidebar .cookies {
@@ -166,4 +174,53 @@ body {
     margin: 8px;
     padding: 8px;
     border-radius: 20px;
+}
+
+.languages .languages_button:hover {
+    transform: scale(1.05);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.disclaimer-premium {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, #ae2896, #509bf5);
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.disclaimer-premium .text {
+   flex-shrink: 0;
+}
+.disclaimer-premium .disclaimer-premium__title {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.disclaimer-premium .disclaimer-premium__subtitle {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.disclaimer-premium button {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 30px;
+    border: 0px;
+    border-radius: 40px;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.disclaimer-premium button:hover {
+    transform: scale(1.05);
+    background-color: rgb(227, 227, 227);
 }

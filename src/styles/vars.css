@@ -1,0 +1,14 @@
+:root {
+    --font-dm-sans: "DM Sans", sans-serif;
+
+    --bg-icon: rgb(27, 27, 27);
+    --bg-arrow-color: rgba(0, 0, 07);
+    --bg-search-bar: rgb(50, 50, 50);
+    --input-color: rgb(255, 255, 255);
+    --subscribe-button: rgb(108, 108, 108);
+    --login-button: rgb(0, 0, 0);
+    --main-content-color: rgb(255, 255, 255);
+    --bg-color-main-content: rgb(27, 27, 27);
+    --color-greeting: rgb(255, 255, 255);
+    --color-greeting-subtitle: rgb(255, 255, 255);
+}
