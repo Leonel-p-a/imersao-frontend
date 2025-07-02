@@ -75,7 +75,3 @@ searchInput.addEventListener('input', function () {
         requestApi(searchTerm);
     }, 300); // Atraso de 300ms após a última digitação
 });
-
-if (true) {
-    console.log('true');
-}
